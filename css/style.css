@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+/* contacto */
+
+#contacto {
+    background-image: url("../images/fondo-contacto.png"); /* Cuando usas .. en una ruta, significa que tienes que salir de la carpeta donde estás ubicado para ir a la carpeta images */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita; solo se muestra una vez */
+    background-size: cover; /* Escala la imagen para que cubra todo el área del fondo, */
+    background-attachment: fixed; /* Hace que la imagen de fondo quede fija */
+    background-position: bottom; /* Posiciona la imagen de fondo en la parte inferior */
+}
+
+h1 {
+    font-size: 36px;
+    color: #E20000;
+    font-weight: 600;
+}
+
+p {
+    color: #6a6a6a;
+    font-size: 16px;
+}
+
+.active {
+    border: solid 1px #E20000;
+    border-radius: 40px;
+}
+
+.btn-rojo {
+    color: white;
+    background-color: #E20000;
+    border-radius: 40px;
+    font-weight: 200;
+}
+
+.btn-rojo:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.btn-blanco {
+    color: #370a6d;
+    background: white;
+    border-radius: 40px;
+}
+
+.btn-blanco:hover {
+    color: white;
+    background: #370a6d;
+}
+
+textarea {
+    height: 150px;
+}
+
+footer p,
+footer a {
+    color: white;
+}
+
+footer .fa-github,
+footer .fa-linkedin-in {
+    font-size: 40px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .fa-whatsapp {
+    background-color: #370a6d;
+    color: white;
+    font-size: 31px;
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Proyectos */
+
+#proyectos {
+    background-image: url("../images/fondo-proyectos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+.proyecto h2 {
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+}
+
+#proyectos .btn-rojo {
+    text-decoration: none;
+}
+
+.proyecto img {
+    height: 212px;
+}
+
+.proyecto p {
+    font-size: 14px;
+}
+
+.proyecto {
+    height: 470px;
+}
+
+.proyecto {
+    background: white;
+}
+
+.link-rojo {
+    color: #E20000;
+}
+
+#proyectos footer p,
+#proyectos footer a {
+    color: black;
+}
+
+/* inicio  */
+
+#inicio {
+    background-image: url("../images/fondo-contacto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+.div-cohete {
+    height: 430px;
+}
+
+#inicio img {
+    height: 400px;
+}
+
+#inicio img:hover {
+    height: 410px;
+}
+
+#inicio .texto-1 {
+    font-size: 17px;
+    font-weight: 100px;
+    border-radius: 30px;
+    color: white;
+    border: solid 1px white;
+}
+
+#inicio .texto-2 {
+    font-size: 17px;
+    font-weight: 600px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+}
+
+/* sobre-mi */
+
+#sobre-mi a {
+    text-decoration: none;
+}
+
+#stack {
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+}
+
+#stack h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.tecnologico {
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#stack .tecnologico i {
+    font-size: 60px;
+    color: #6A6A6A;
+}
+
+#experiencia h2,
+#formacion h2,
+#desarollo h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #370A6D;
+}
+
+#experiencia i,
+#formacion i,
+#desarollo i {
+    font-size: 70px;
+}
+
+.exp,
+.form,
+.des,
+.det {
+    text-align: center;
+}
+
+#experiencia h3,
+#formacion h3,
+#desarollo h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+}
+
+#experiencia h4,
+#formacion h4,
+#desarollo h4 {
+    color: #370A6D;
+    font-size: 17px;
+}
+
+#experiencia h5,
+#formacion h5,
+#desarollo h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+#experiencia p,
+#formacion p,
+#desarollo p {
+    color: #6A6A6A;
+    font-size: 16px;
+}
+
+#detalles {
+    background-color: #eee;
+}
+
+#detalles i {
+    color: white;
+    font-size: 70px;
+}
+
+.det {
+    background-color: #370A6D;
+    height: 182px;
+}
+
+#detalles h2 {
+    font-size: 16px;
+}
+
+#detalles li {
+    font-size: 14px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.card {
+    padding: 30px;
+}
+
+.box {
+    border-radius: 13px;
+}
+
+.box-white {
+    background-color: white;
+}
+
+#sobre-mi footer i,
+#sobre-mi footer p,
+#sobre-mi footer a {
+    color: black;
+}
+
+#sobre-mi .fa-whatsapp {
+    color: white;
+}
+
+@media (max-width: 750px){
+    #contacto {
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: top;
+    }
+
+    #proyectos {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: top;
+    }
+
+    #inicio {
+        background-image: url(../images/fondo-contacto.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+
+    #inicio .texto-1 {
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 30px;
+    color: #E20000;
+    border: solid 1px #E20000;
+    }
+
+    #inicio .texto-1 {
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 30px;
+    color: #E20000;
+    border: solid 1px #E20000;
+    }
+
+    #contacto footer p,
+    #contacto footer i, 
+    #contacto footer a {
+        color: #E20000;
+    }
+
+    #sobre-mi .box-media {
+        margin-bottom: 20px;
+        padding: 0px 30px 0px 30px;
+    }
+}
