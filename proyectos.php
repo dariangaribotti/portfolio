@@ -1,3 +1,6 @@
+<?php
+    $pg = "proyectos";
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -15,7 +18,7 @@
 
 <body id="proyectos" class="d-flex flex-column h-100">
     <header class="container">
-        <?php include_once("menu.php"); ?>
+        <?php include_once "menu.php"; ?>
     </header>
     <main class="container">
         <div class="row">
