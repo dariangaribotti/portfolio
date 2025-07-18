@@ -15,36 +15,7 @@
 
 <body id="sobre-mi" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md ">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 active" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class="float-sm-end">
-                            <a class="btn btn-rojo" href="https://www.linkedin.com/in/nelson-daniel-tarche/">CV Online
-                                <i class="fa-brands fa-linkedin-in text-white"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("menu.php"); ?>
     </header>
     <main>
         <section class="container" id="bio">
@@ -139,7 +110,7 @@
             </div>
             <div class="row shadow p-0">
                 <div class="col-12 col-sm-2 exp d-none d-sm-block">
-                    <i class="fa-solid fa-circle p-5"></i>
+                    <i class="fa-solid fa-circle p-5 rojo"></i>
                 </div>
                 <div class="col-12 col-sm-10 my-3">
                     <h3>Lorem ipsum</h3>
@@ -150,7 +121,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-sm-2 exp d-none d-sm-block">
-                    <i class="fa-solid fa-circle p-5"></i>
+                    <i class="fa-solid fa-circle p-5 rojo"></i>
                 </div>
                 <div class="col-12 col-sm-10 my-3">
                     <h3>Lorem ipsum</h3>
@@ -161,7 +132,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-sm-2 exp d-none d-sm-block">
-                    <i class="fa-solid fa-circle p-5"></i>
+                    <i class="fa-solid fa-circle p-5 rojo"></i>
                 </div>
                 <div class="col-12 col-sm-10 my-3">
                     <h3>Lorem ipsum</h3>
@@ -183,7 +154,7 @@
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-4 form d-none d-sm-block">
-                            <i class="fa-solid fa-circle p-5"></i>
+                            <i class="fa-solid fa-circle p-5 rojo"></i>
                         </div>
                         <div class="col-12 col-sm-8 mt-3 mb-2">
                             <h3>Lorem ipsum</h3>
@@ -196,7 +167,7 @@
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-4 form d-none d-sm-block">
-                            <i class="fa-solid fa-circle p-5"></i>
+                            <i class="fa-solid fa-circle p-5 rojo"></i>
                         </div>
                         <div class="col-12 col-sm-8 mt-3 mb-2">
                             <h3>Lorem ipsum</h3>
@@ -209,7 +180,7 @@
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-4 form d-none d-sm-block">
-                            <i class="fa-solid fa-circle p-5"></i>
+                            <i class="fa-solid fa-circle p-5 rojo"></i>
                         </div>
                         <div class="col-12 col-sm-8 mt-3 mb-2">
                             <h3>Lorem ipsum</h3>
@@ -231,7 +202,7 @@
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-4 des d-none d-sm-block">
-                            <i class="fa-solid fa-circle p-5"></i>
+                            <i class="fa-solid fa-circle p-5 rojo"></i>
                         </div>
                         <div class="col-12 col-sm-8 mt-3 mb-2">
                             <h3>Lorem ipsum</h3>
@@ -244,7 +215,7 @@
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-4 des d-none d-sm-block">
-                            <i class="fa-solid fa-circle p-5"></i>
+                            <i class="fa-solid fa-circle p-5 rojo"></i>
                         </div>
                         <div class="col-12 col-sm-8 mt-3 mb-2">
                             <h3>Lorem ipsum</h3>
@@ -257,7 +228,7 @@
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-4 des d-none d-sm-block">
-                            <i class="fa-solid fa-circle p-5"></i>
+                            <i class="fa-solid fa-circle p-5 rojo"></i>
                         </div>
                         <div class="col-12 col-sm-8 mt-3 mb-2">
                             <h3>Lorem ipsum</h3>
@@ -275,7 +246,7 @@
                     <div class="col-12 col-sm-6 pe-sm-5 box-media">
                         <div class="row shadow box">
                             <div class="col-5 col-sm-4 det card box">
-                                <i class="fa-regular fa-comments pt-3"></i>
+                                <i class="fa-regular fa-comments pt-3 rojo"></i>
                             </div>
                             <div class="col-7 col-sm-8 pt-5 px-5 box box-white">
                                 <h2>IDIOMA</h2>
@@ -289,7 +260,7 @@
                     <div class="col-12 col-sm-6 ps-sm-3 box-media">
                         <div class="row shadow box">
                             <div class="col-5 col-sm-4 det card box">
-                                <i class="fa-solid fa-table-tennis-paddle-ball pt-3"></i>
+                                <i class="fa-solid fa-table-tennis-paddle-ball pt-3 rojo"></i>
                             </div>
                             <div class="col-7 col-sm-8 pt-5 px-5 box box-white">
                                 <h2>HOBBIES</h2>

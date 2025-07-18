@@ -204,6 +204,15 @@ footer .fa-whatsapp {
     color: #370A6D;
 }
 
+.rojo {
+  transition: color 0.3s ease;
+}
+
+.rojo:hover {
+  color: #E20000;
+}
+
+
 #experiencia i,
 #formacion i,
 #desarollo i {
