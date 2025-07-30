@@ -13,22 +13,20 @@
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
-    <title>Inicio</title>
+    <title>Document</title>
 </head>
 
-<body id="inicio" class="d-flex flex-column h-100">
+<body id="contacto" class="d-flex flex-column h-100">
     <header class="container">
-        <?php include_once "menu.php"; ?>
+       <?php include_once "menu.php"; ?>
     </header>
     <main class="container">
-       <div class="row">
-            <div class="col-12 pt-5">
-                <h1>Gracias por contactarte,</h1>
-            </div>
-       </div>
         <div class="row">
-            <div class="col-12 col-sm-6 py-3 mb-3">
-                <p class="py-1 text-secondary">te estaré respondiendo a la brevedad</p>
+            <div class="col-12 pt-5 py-3">
+                <h1>Gracias por enviarme un mensaje,</h1>
+            </div>
+            <div class="col-6">
+                <p>te estare respondiendo a la brevedad.</p>
             </div>
         </div>
     </main>
