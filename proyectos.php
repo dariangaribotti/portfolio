@@ -36,7 +36,7 @@
             <div class="col-12 col-lg-4 p-4">
                 <div class="row border proyecto">
                     <div class="col-12 p-0">
-                        <img src="/images/abmclientes.png" class="img-fluid" alt="">
+                        <img src="images/abmclientes.png" class="img-fluid" alt="">
                         <h2 class="py-3">SISTEMA DE GESTIÓN DE VENTAS</h2>
                         <p class="py-3 px-2">Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP, Bootstrap
                             y Json.</p>
@@ -54,7 +54,7 @@
             <div class="col-12 col-lg-4 p-4">
                 <div class="row border proyecto">
                     <div class="col-12 p-0">
-                        <img src="/images/abmventas.png" class="img-fluid" alt="">
+                        <img src="images/abmventas.png" class="img-fluid" alt="">
                         <h2 class="py-3">SISTEMA DE GESTIÓN DE VENTAS</h2>
                         <p class="py-3 px-2">Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                     </div>
@@ -71,7 +71,7 @@
             <div class="col-12 col-lg-4 p-4">
                 <div class="row border proyecto">
                     <div class="col-12 p-0">
-                        <img src="/images/proyecto-integrador.png" class="img-fluid" alt="">
+                        <img src="images/proyecto-integrador.png" class="img-fluid" alt="">
                         <h2 class="py-3">PROYECTO INTEGRADOR</h2>
                         <p class="py-3 px-2">Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
                     </div>

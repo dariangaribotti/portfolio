@@ -1,5 +1,5 @@
 <?php
-    $pg = "inicio";
+    $pg = "contacto";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
@@ -22,20 +22,15 @@
     </header>
     <main class="container">
        <div class="row">
-            <div class="col-12 pt-4 text-center div-cohete">
-                <a href="proyectos.html"><img src="images/cohete.svg" alt=""></a>
+            <div class="col-12 pt-5">
+                <h1>Gracias por contactarte,</h1>
             </div>
        </div>
         <div class="row">
-            <div class="col-12 col-sm-6 py-sm-3 my-4 mt-sm-5 text-center mb-3 offset-sm-3">
-                <p class="py-1 texto-1">Bienvenid@ a mi sitio web sobre docencia en sistemas.</p>
+            <div class="col-12 col-sm-6 py-3 mb-3">
+                <p class="py-1 text-secondary">te estaré respondiendo a la brevedad</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-7 offset-2 col-sm-2 offset-sm-5 py-2 pb-4 px-1 text-center">
-                <p class="py-2 texto-2 shadow">Conoce mis proyectos</p>
-            </div>
-       </div>
     </main>
     <?php include_once "footer.php"; ?>
 </body>
