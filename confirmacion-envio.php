@@ -26,7 +26,7 @@
                 <h1>Gracias por enviarme un mensaje,</h1>
             </div>
             <div class="col-6">
-                <p>te estare respondiendo a la brevedad.</p>
+                <p>te estaré respondiendo a la brevedad.</p>
             </div>
         </div>
     </main>
